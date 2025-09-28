@@ -93,7 +93,7 @@ Este projeto foi desenvolvido pelos seguintes alunos:
 -   Daiane Aurilia de Moura
 -   Ieda Melo Moretini
 -   Lucas Nathan Consolo
--   
--   
+-   Luiz Felipe Queirós de Andrade
+-   Maria Carolina de Araújo Medeiros
 -   Vinícius Silva dos Santos
--   
+-   Yan Vitor Siqueira Bergantin
