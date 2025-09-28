@@ -92,8 +92,8 @@ Este projeto foi desenvolvido pelos seguintes alunos:
 
 -   Daiane Aurilia de Moura
 -   Ieda Melo Moretini
--   Lucas Nathan Consolo
--   Luiz Felipe Queirós de Andrade
+-   Lucas Nathan Consolo (Product Owner)
+-   Luiz Felipe Queirós de Andrade (Scrum Master)
 -   Maria Carolina de Araújo Medeiros
 -   Vinícius Silva dos Santos
 -   Yan Vitor Siqueira Bergantin
