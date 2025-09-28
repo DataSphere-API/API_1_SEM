@@ -90,10 +90,10 @@ Para executar o projeto, siga os passos abaixo:
 
 Este projeto foi desenvolvido pelos seguintes alunos:
 
--   Daiane Aurilia de Moura
--   Ieda Melo Moretini
+-   Daiane Aurilia de Moura (Dev. team)
+-   Ieda Melo Moretini (Dev. team)
 -   Lucas Nathan Consolo (Product Owner)
 -   Luiz Felipe Queirós de Andrade (Scrum Master)
--   Maria Carolina de Araújo Medeiros
--   Vinícius Silva dos Santos
--   Yan Vitor Siqueira Bergantin
+-   Maria Carolina de Araújo Medeiros (Dev. team)
+-   Vinícius Silva dos Santos (Dev. team)
+-   Yan Vitor Siqueira Bergantin (Dev. team)
