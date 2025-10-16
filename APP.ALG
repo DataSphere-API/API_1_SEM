@@ -1,4 +1,6 @@
 Algoritmo "semnome"
+//  
+//  
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -10,7 +12,7 @@ Var
    fatorial, passo_valor, valor_inicial, termo: real
 Inicio
    // Seção de Comandos, procedimento, funções, operadores, etc...
-   enquanto opcao <>4 faca
+   enquanto opcao <>7 faca
       escreval ("------MENU CALCULADORA-------")
       escreval ("")
       escreval (" 01 - Sequência de Numeros Primos")
