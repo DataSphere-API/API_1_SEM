@@ -1,4 +1,6 @@
 Algoritmo "semnome"
+//  
+//  
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -17,7 +19,11 @@ Inicio
       escreval (" 02 - Sequência de Números Fatoriais ")
       escreval (" 03 - Sequência Alternada")
       escreval (" 04 - Sequência de Números Triangulares")
+<<<<<<< HEAD
       escreval (" 05 - Sequência de Quadrados Perfeitos")
+=======
+      escreval (" 05 - Sequência de quadrados perfeitos")
+>>>>>>> 57158984b2309b6d6fa2bc02fae3be917920665e
       escreval (" 06 - Sequência Geométrica")
       escreval (" 07 - Sair")
       escreval ("")
@@ -26,6 +32,11 @@ Inicio
       limpatela
       se opcao =1 entao
          escreval ("Você escolheu a opção 01 - Sequência de Numeros Primos")
+<<<<<<< HEAD
+=======
+
+         //Entrada do usuario
+>>>>>>> 57158984b2309b6d6fa2bc02fae3be917920665e
          escreva("Digite a quantidade de números primos que você deseja: ")
          leia(quantDesejada)
 
@@ -128,13 +139,41 @@ Inicio
          leia(pause)
          limpatela
       fimse
+      se opcao = 4 entao
+         escreval ("Você escolheu a opção 04 - Sequência de Números Triangulares")
+         //digite seu codigo aqui
+         escreval("Aperte enter para voltar ao menu")
+         leia(pause)
+         limpatela
+      fimse
+      se opcao = 5 entao
+         escreval ("Você escolheu a opção 05 - Sequência de quadrados perfeitos")
+         //digite seu codigo aqui
+         escreval("Aperte enter para voltar ao menu")
+         leia(pause)
+         limpatela
+      fimse
+      se opcao = 6 entao
+         escreval ("Você escolheu a opção 06 - Sequência Geométrica")
+         //digite seu codigo aqui
+         escreval("Aperte enter para voltar ao menu")
+         leia(pause)
+         limpatela
+      fimse
 
+<<<<<<< HEAD
       se opcao = 4 entao
          escreval ("Você escolheu a opção 04 - Sequência de Números Triangulares")
          escreval("Escolha a opção desejada:")
          escreval("1 - Enésimo (n) número da sequência")
          escreval("2 - Ver a lista dos números triângulares até o número escolhido")
          leia(opcao)
+=======
+      se opcao =7 entao
+         escreval ("Você escolheu a opção 07 - Sair")
+      fimse
+   fimenquanto
+>>>>>>> 57158984b2309b6d6fa2bc02fae3be917920665e
 
          enquanto (opcao <1) ou (opcao >2) faca
             escreval("OPÇÃO INVÁLIDA. Tente novamente")
