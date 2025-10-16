@@ -13,16 +13,19 @@ Inicio
    enquanto opcao <>4 faca
       escreval ("------MENU CALCULADORA-------")
       escreval ("")
-      escreval (" 01 - Numeros Primos ")
-      escreval (" 02 - Fatorial ")
+      escreval (" 01 - Sequência de Numeros Primos")
+      escreval (" 02 - Sequência de Números Fatoriais ")
       escreval (" 03 - Sequência Alternada")
-      escreval (" 04 - Sair")
+      escreval (" 04 - Sequência de Números Triangulares")
+      escreval (" 05 - Sequência de quadrados perfeitos")
+      escreval (" 06 - Sequência Geométrica")
+      escreval (" 07 - Sair")
       escreval ("")
       Escreval ("-----------------------------")
       leia (opcao)
       limpatela
       se opcao =1 entao
-         escreval ("Você escolheu a opção 01 - Numeros Primos")
+         escreval ("Você escolheu a opção 01 - Sequência de Numeros Primos")
 
          //Entrada do usuario
          escreva("Digite a quantidade de números primos que você deseja: ")
@@ -58,8 +61,7 @@ Inicio
          limpatela
       fimse
       se opcao =2 entao
-         escreval ("Você escolheu a opção 02 - Fatorial")
-         //coloque seu codigo aqui
+         escreval ("Você escolheu a opção 02 - Sequência de Números Fatoriais")
          repita
             escreval("MENU DE OPÇÕES")
             escreval("1 - Ver apenas o fatorial de um número")
@@ -133,9 +135,30 @@ Inicio
          leia(pause)
          limpatela
       fimse
+      se opcao = 4 entao
+         escreval ("Você escolheu a opção 04 - Sequência de Números Triangulares")
+         //digite seu codigo aqui
+         escreval("Aperte enter para voltar ao menu")
+         leia(pause)
+         limpatela
+      fimse
+      se opcao = 5 entao
+         escreval ("Você escolheu a opção 05 - Sequência de quadrados perfeitos")
+         //digite seu codigo aqui
+         escreval("Aperte enter para voltar ao menu")
+         leia(pause)
+         limpatela
+      fimse
+      se opcao = 6 entao
+         escreval ("Você escolheu a opção 06 - Sequência Geométrica")
+         //digite seu codigo aqui
+         escreval("Aperte enter para voltar ao menu")
+         leia(pause)
+         limpatela
+      fimse
 
-      se opcao =4 entao
-         escreval ("Você escolheu a opção 04 - Sair")
+      se opcao =7 entao
+         escreval ("Você escolheu a opção 07 - Sair")
       fimse
    fimenquanto
 
