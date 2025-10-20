@@ -1,71 +1,63 @@
 # API 1° Semestre BD
 ## Calculadora de Sequências Lógicas 
 <p align="center">
-  <img src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/58/2024/03/Logo_CPS-01.png" alt="Logo Centro Paula Souza" width="200"/>
-  <img src="https://sjc.fatec.sp.gov.br/static/media/logo.b8e0d5a7.png" alt="Logo FATEC São José dos Campos" width="200"/>
+  <img src="Documentos/Logo DataSphere.png" width="200"/>
+  <h2 align="center"> Data Sphere </h2>
 </p>
 
-# Projeto Calculadora Avançada - API (Aprendizagem por Projetos Integrados)
+<p align="center">
+    <a href ="#desafio"> Desafio</a> |
+    <a href ="#solução"> Solução</a> |
+    <a href ="#backlog"> Backlog do Produto</a> |   
+    <a href ="sprints"> Cronograma das Sprints</a> |
+    <a href ="#dor"> DoR</a> |
+    <a href ="#dod"> DoD</a> |
+    <a href ="tecnologias"> Tecnologias</a> |
+    <a href ="manual"> Manual do Usuário</a> |
+    <a href ="equipe"> Equipe</a> |
+</p>
 
-**Instituição:** FATEC São José dos Campos - Prof. Jessen Vidal  
-**Curso:** Banco de Dados - 1º Semestre  
+> Status do projeto: Em progresso ⏳
+> 
+> [Documentação](Documentos) 📑
 
----
+### 🚀 Desafio <a id="desafio"></a>
 
-## Índice
+Desenvolver um software de cálculo de funções matemáticas avançadas para auxiliar estudantes, utilizando a linguagem Portugol na plataforma VisualG 3.0, aplicando conceitos de lógica de programação, estruturas de repetição e condicionais aprendidos durante o primeiro semestre do curso de Bando de Dados.
 
-- [1. Sobre o Projeto](#1-sobre-o-projeto)
-- [2. Funcionalidades](#2-funcionalidades)
-- [3. Status do Projeto (Sprints)](#3-status-do-projeto-sprints)
-- [4. Tecnologias Utilizadas](#4-tecnologias-utilizadas)
-- [5. Como Executar](#5-como-executar)
-- [6. Autores](#6-autores)
+### 🚀 Solução <a id="solução"></a>
 
----
-
-### 1. Sobre o Projeto
-
-Este projeto consiste no desenvolvimento de uma calculadora com funções matemáticas avançadas, utilizando a linguagem Portugol e a plataforma VisualG. O objetivo é aplicar os conceitos de lógica de programação, estruturas de repetição e condicionais aprendidos durante o primeiro semestre do curso de Banco de Dados.
-
-O sistema, nomeado "API (Aprendizagem por Projetos Integrados)", foi projetado para ir além das operações aritméticas básicas, oferecendo ao usuário a capacidade de explorar e estudar diferentes sequências numéricas e conceitos matemáticos.
-
----
-
-### 2. Funcionalidades
-
-A calculadora foi planejada para incluir 9 funcionalidades principais, descritas a seguir:
-
--   **Sequência Alternada:** `(Entregue na Sprint 1)` Permite ao usuário criar um padrão de sequência específico e analisar seu comportamento para um determinado número de termos `n`.
--   **Números Primos:** `(Entregue na Sprint 1)` Gera uma lista com os `n` primeiros números primos.
--   **Fatorial:** `(Entregue na Sprint 1)` Calcula o valor fatorial de um número `n` ou exibe a sequência de fatoriais até `n`.
--   **Sequência de Fibonacci:** Permite encontrar o n-ésimo termo da sequência ou gerar a sequência completa com `n` valores.
--   **Números Triangulares:** Permite encontrar o n-ésimo número triangular ou gerar a sequência com `n` valores.
--   **Sequência de Quadrados Perfeitos:** Permite encontrar o valor na posição `n`, listar os valores até `n` e validar se um número é um quadrado perfeito.
--   **Sequência de Cubos:** Permite encontrar o valor na posição `n` ou listar os primeiros `n` valores da sequência.
--   **Sequência Geométrica:** Permite encontrar o valor na posição `n` ou listar os primeiros `n` valores da sequência.
--   **Sequência de Tribonacci:** Permite encontrar o n-ésimo termo da sequência ou gerar a sequência com `n` valores.
+A Calculadora de Sequências Lógicas foi projetada para ir além das operações aritméticas básicas, oferecendo ao usuário a capacidade de explorar e estudar diferentes sequências numéricas e conceitos matemáticos.
 
 ---
 
-### 3. Status do Projeto (Sprints)
+### 📋 Backlog do Produto <a id="backlog"></a>
+Rank | Prioridade | User Story                                                                                                                                                                                                                                                                                                       | Sprint
+:--: | :--------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----:
+   1 |    Alta    | Como usuário da calculadora, quero poder escolher a função de cálculo que vou utilizar, por via de um menu inicial, para ter um controle maior da aplicação                                                                                                                                                      |   1
+   2 |    Alta    | Como usuário da calculadora, quero utilizar a função “Números Primos”, podendo gerar uma lista com os n  primeiros números, para aplicar a base de estudos                                                                                                                                                       |   1
+   3 |    Alta    | Como usuário da calculadora, quero utilizar a função “Sequência Fatorial”, para encontrar o valor fatorial do número n, ou receber uma lista com os valores fatoriais dos números até n, para aplicar a base de estudos                                                                                          |   1
+   4 |    Alta    | Como usuário da calculadora, quero utilizar a função “Sequência Alternada” podendo criar um padrão de sequência específico, e utilizar um valor n, para entender como ele reage                                                                                                                                  |   1
+   5 |    Média   | Como usuário da calculadora, quero utilizar a função “Números Triangulares”, podendo encontrar o n-ésimo número da sequência, ou receber uma sequência com n valores, para aplicar a base de estudos                                                                                                             |   2
+   6 |    Média   | Como usuário da calculadora, quero utilizar a função “Sequência de Fibonacci”, com n elementos                                                                                                                                                                                                                   |   2
+   7 |    Média   | Como usuário da calculadora, quero utilizar a função “Sequência Geométrica” podendo encontrar o valor do item na posição n, para aplicar a base de estudos                                                                                                                                                       |   2
+   8 |    Baixa   | Como usuário da calculadora, quero utilizar a função “Sequência de quadrados perfeitos” podendo encontrar o valor do item na posição n, uma lista com os primeiros valores até a posição n, e um validador para saber se o valor n escolhido é um quadrado perfeito ou não. Isso, para aplicar a base de estudos |   3
+   9 |    Baixa   | Como usuário da calculadora, quero utilizar a função “Sequência de cubos” podendo encontrar o valor do item na posição n, uma lista com os primeiros valores até a posição n, para aplicar a base de estudos                                                                                                     |   3
+  10 |    Baixa   | Como usuário da calculadora, quero utilizar a função “Sequência de Tribonacci”, podendo encontrar o n-ésimo número da sequência, ou receber uma sequência com n valores, para aplicar a base de estudos                                                                                                          |   3
 
-O desenvolvimento do projeto está organizado em três Sprints, com entregas parciais de funcionalidades.
+---
 
-#### **Sprint 1 (Concluída)**
--   [x] Implementação da função **Sequência Alternada**.
--   [x] Implementação da função **Números Primos**.
--   [x] Implementação da função **Fatorial**.
--   [x] Estrutura inicial do menu e da lógica de seleção de funções.
+### 📆 Cronograma das Sprints <a id="sprints"></a>
 
-#### **Sprint 2 (Em andamento/Planejada)**
--   [ ] Implementação da função **Sequência Geométrica**.
--   [ ] Implementação da função **Números Triangulares**.
--   [ ] Implementação da função **Sequência de Quadrados Perfeitos**.
+|  Sprint  |    Período    | Status | Doc. Sprints | 
+| :------: | :-----------: | :----: | :----------: |
+| Sprint 1 | 08/09 a 28/09 |   ✅   |    [Doc]()   |
+| Sprint 2 | 06/10 a 26/10 |   ⏳   |    [Doc]()   |
+| Sprint 3 | 03/11 a 23/11 |   ⌛   |    [Doc]()   |
 
-#### **Sprint 3 (Planejada)**
--   [ ] Implementação da função **Sequência de Cubos**.
--   [ ] Implementação da função **Sequência de Fibonacci**.
--   [ ] Implementação da função **Sequência de Tribonacci**.
+---
+
+### ☑️ DoR <a id="dor"></a>
 
 ---
 
