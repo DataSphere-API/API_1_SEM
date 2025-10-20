@@ -14,7 +14,7 @@
     <a href ="#dod"> DoD</a> |
     <a href ="tecnologias"> Tecnologias</a> |
     <a href ="manual"> Manual do Usuário</a> |
-    <a href ="equipe"> Equipe</a> |
+    <a href ="equipe"> Equipe</a>
 </p>
 
 > Status do projeto: Em progresso ⏳
@@ -61,7 +61,13 @@ Rank | Prioridade | User Story                                                  
 
 ---
 
-### 4. Tecnologias Utilizadas
+### ☑️ DoD <a id="dod"></a>
+
+---
+
+### Tecnologias <a id="tecnologias"></a>
+
+---
 
 -   **Linguagem:** Portugol
 -   **Plataforma:** VisualG 3.0
