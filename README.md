@@ -1,3 +1,5 @@
+# API 1° Semestre BD
+## Calculadora de Sequências Lógicas 
 <p align="center">
   <img src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/58/2024/03/Logo_CPS-01.png" alt="Logo Centro Paula Souza" width="200"/>
   <img src="https://sjc.fatec.sp.gov.br/static/media/logo.b8e0d5a7.png" alt="Logo FATEC São José dos Campos" width="200"/>
