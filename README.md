@@ -86,7 +86,7 @@ Para executar a calculadora, siga os passos abaixo:
 
 ---
 
-### 6. Equipe
+### 🧑‍🤝‍🧑 Equipe <a id="equipe"></a>
 
 <div align="center">
   <table>
@@ -115,7 +115,7 @@ Para executar a calculadora, siga os passos abaixo:
       <td><a href="https://www.linkedin.com/in/daiane-moura-189987106/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
-      <td>Ieda Moretine</td>
+      <td>Ieda Moretini</td>
       <td>Desenvolvedor</td>
       <td><a href="https://github.com/imoretini"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
       <td><a href="https://www.linkedin.com/in/imoretini/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
