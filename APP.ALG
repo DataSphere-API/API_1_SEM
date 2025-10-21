@@ -8,9 +8,9 @@ Algoritmo "semnome"
 // Data atual  : 18/09/2025
 Var
    // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
-   resultado, termo1, razao, termos, quantidade, opcao, pause, quantDesejada, nAtual, contador,ehPrimo, numero,i, n:inteiro
+   resultado, termo1, termo2, termo3, qte_termos, razao, termos, quantidade, opcao, pause, quantDesejada, nAtual, contador,ehPrimo, numero,i, n:inteiro
    fatorial, passo_valor, valor_inicial, termo, sequencia: real
-   
+
 
 Inicio
    // Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc...
@@ -181,7 +181,18 @@ Inicio
       fimse
       se (opcao = 5) entao
          escreval ("Você escolheu a opção 05 - Sequência Fibonacci")
-         //digite seu codigo aqui
+         escreval("Escreva a quantidade de termos da sua sequência")
+         leia(qte_termos)
+         termo1<-0
+         termo2<-1
+
+         para contador de 1 ate qte_termos faca
+            termo1<-termo2
+            termo2<-termo3
+            termo3 <- termo1+termo2
+            escreval("Termo: ",contador, "->", termo3)
+         fimpara
+
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
