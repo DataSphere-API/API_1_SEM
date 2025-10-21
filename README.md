@@ -57,43 +57,86 @@ Rank | Prioridade | User Story                                                  
 
 ---
 
-### ☑️ DoR <a id="dor"></a>
+### ☑️ DoR (Definition of Ready) <a id="dor"></a>
 
 ---
 
-### ☑️ DoD <a id="dod"></a>
+### ☑️ DoD (Definition of Done) <a id="dod"></a>
 
 ---
 
 ### Tecnologias <a id="tecnologias"></a>
 
----
-
+-   **Repositório:** Github
+-   **Ferramenta de gestão:** Jira
 -   **Linguagem:** Portugol
 -   **Plataforma:** VisualG 3.0
 
 ---
 
-### 5. Como Executar
+### ❓ Manual do Usuário <a id="manual"></a>
 
-Para executar o projeto, siga os passos abaixo:
+Para executar a calculadora, siga os passos abaixo:
 
-1.  Certifique-se de ter o **VisualG** instalado em seu computador.
-2.  Faça o download do arquivo do projeto (`app.alg`).
+1.  Certifique-se de ter o **VisualG 3.0** instalado em seu computador.
+2.  Faça o download do arquivo da calculadora `app.alg` [aqui](APP.ALG).
 3.  Abra o arquivo `app.alg` no VisualG.
-4.  Pressione a tecla **F9** ou clique no ícone de "Executar" para iniciar o programa.
+4.  Pressione a tecla **F9** do seu teclado ou clique no ícone de "Executar" no VisualG 3.0, para iniciar o programa.
 5.  Siga as instruções apresentadas no console para selecionar e utilizar as funções da calculadora.
 
 ---
 
-### 6. Autores
+### 6. Equipe
 
-Este projeto foi desenvolvido pelos seguintes alunos:
-
--   Daiane Aurilia de Moura (Dev. team)
--   Ieda Melo Moretini (Dev. team)
--   Lucas Nathan Consolo (Product Owner)
--   Luiz Felipe Queirós de Andrade (Scrum Master)
--   Maria Carolina de Araújo Medeiros (Dev. team)
--   Vinícius Silva dos Santos (Dev. team)
--   Yan Vitor Siqueira Bergantin (Dev. team)
+<div align="center">
+  <table>
+    <tr>
+      <th>Membro</th>
+      <th>Função</th>
+      <th>Github</th>
+      <th>Linkedin</th>
+    </tr>
+    <tr>
+      <td>Lucas Nathan</td>
+      <td>Product Owner</td>
+      <td><a href="https://github.com/Consolucas"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://www.linkedin.com/in/lucasconsolo/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+    </tr>
+    <tr>
+      <td>Luiz Felipe</td>
+      <td>Scrum Master</td>
+      <td><a href="luiz-andrade1"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="www.linkedin.com/in/luiz-felipe-queirós"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+    </tr>
+    <tr>
+      <td>Daiane Moura</td>
+      <td>Desenvolvedor</td>
+      <td><a href="https://github.com/mouradaiane"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://www.linkedin.com/in/daiane-moura-189987106/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+    </tr>
+    <tr>
+      <td>Ieda Moretine</td>
+      <td>Desenvolvedor</td>
+      <td><a href="https://github.com/imoretini"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://www.linkedin.com/in/imoretini/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+    </tr>
+    <tr>
+      <td>Maria Carolina</td>
+      <td>Desenvolvedor</td>
+      <td><a href="https://github.com/mcarolinamedeiros"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://br.linkedin.com/in/mcarolinamedeiros"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+    </tr>
+    <tr>
+      <td>Vinicius Santos</td>
+      <td>Desenvolvedor</td>
+      <td><a href="https://github.com/vncssd"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://www.linkedin.com/in/vncssd?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+    </tr>
+    <tr>
+      <td>Yan Bergantin</td>
+      <td>Desenvolvedor</td>
+      <td><a href="https://github.com/YanBergantin"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://www.linkedin.com/in/yan-vitor-siqueira-bergantin-5b4a431a1/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+    </tr>
+  </table>
+</div>
