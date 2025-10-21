@@ -65,7 +65,7 @@ Rank | Prioridade | User Story                                                  
 
 ---
 
-### Tecnologias <a id="tecnologias"></a>
+### 💻 Tecnologias <a id="tecnologias"></a>
 
 -   **Repositório:** Github
 -   **Ferramenta de gestão:** Jira
