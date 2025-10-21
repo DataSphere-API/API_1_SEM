@@ -9,12 +9,12 @@
     <a href ="#desafio"> Desafio</a> |
     <a href ="#solução"> Solução</a> |
     <a href ="#backlog"> Backlog do Produto</a> |   
-    <a href ="sprints"> Cronograma das Sprints</a> |
+    <a href ="#sprints"> Cronograma das Sprints</a> |
     <a href ="#dor"> DoR</a> |
     <a href ="#dod"> DoD</a> |
-    <a href ="tecnologias"> Tecnologias</a> |
-    <a href ="manual"> Manual do Usuário</a> |
-    <a href ="equipe"> Equipe</a>
+    <a href ="#tecnologias"> Tecnologias</a> |
+    <a href ="#manual"> Manual do Usuário</a> |
+    <a href ="#equipe"> Equipe</a>
 </p>
 
 > Status do projeto: Em progresso ⏳
