@@ -1,7 +1,7 @@
 # API 1° Semestre BD
 ## Calculadora de Sequências Lógicas 
 <p align="center">
-  <img src="Documentos/img/Logo DataSphere (1).png" width="200"/>
+  <img src="Documentos/img/Logo_DataSphere.png" width="200"/>
   <h2 align="center"> Data Sphere </h2>
 </p>
 
