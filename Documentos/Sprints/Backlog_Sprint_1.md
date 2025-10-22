@@ -1,4 +1,15 @@
-## 📋 Backlog da Sprint 1
+<p align="center">
+  <img src="../../Documentos/img/Logo_DataSphere.png" width="100"/>
+  <h2 align="center"> Data Sphere </h2>
+</p>
+
+<p align="center">
+  <a href ="#us"> User Stories</a>  |   
+  <a href ="#dor">DoR</a>  |
+  <a href ="#dod">DoD</a>
+</p>
+
+## 📋 Backlog da Sprint 1 <a id="us"></a>
 
 **Meta da Sprint:**  User Stories de rank 1 a rank 4, de prioridade alta.
 
@@ -9,14 +20,14 @@ Rank | Prioridade | User Story                                                  
    3 |    Alta    | Como usuário da calculadora, quero utilizar a função “Sequência Fatorial”, para encontrar o valor fatorial do número n, ou receber uma lista com os valores fatoriais dos números até n, para aplicar a base de estudos                                                                                          |   1
    4 |    Alta    | Como usuário da calculadora, quero utilizar a função “Sequência Alternada” podendo criar um padrão de sequência específico, e utilizar um valor n, para entender como ele reage                                                                                                                                  |   1
 
-## ☑️ Definition of Ready (DoR)
+## ☑️ Definition of Ready (DoR) <a id="dor"></a>
 
 - User Story discrimina claramente quais são os requisitos?
 - As tarefas a serem divididas são facilmente enxergadas?
 - Tenho ferramentas suficientes para executar o trabalho?
 - Tenho a dupla definida para esse requisito?
 
-## ☑️ Definition of Done (DoD)
+## ☑️ Definition of Done (DoD) <a id="dod"></a>
 
 - O código foi revisado pelo executor.
 - O código foi fatorado.
