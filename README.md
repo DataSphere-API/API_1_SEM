@@ -51,17 +51,27 @@ Rank | Prioridade | User Story                                                  
 
 |  Sprint  |    Período    | Status | Doc. Sprints | 
 | :------: | :-----------: | :----: | :----------: |
-| Sprint 1 | 08/09 a 28/09 |   ✅   |    [Doc](Documentos/Backlog Sprint 1.md)   |
-| Sprint 2 | 06/10 a 26/10 |   ⏳   |    [Doc]()   |
-| Sprint 3 | 03/11 a 23/11 |   ⌛   |    [Doc]()   |
+| Sprint 1 | 08/09 a 28/09 |   ✅  |    [Doc](Documentos/Sprints/Backlog_Sprint_1.md)   |
+| Sprint 2 | 06/10 a 26/10 |   ⏳   |    [Doc](Documentos/Sprints/Backlog_Sprint_2.md)   |
+| Sprint 3 | 03/11 a 23/11 |   ⌛   |    [Doc](Documentos/Sprints/Backlog_Sprint_3.md)   |
 
 ---
 
 ### ☑️ DoR (Definition of Ready) <a id="dor"></a>
 
+- Product Backlog dividida em User Storys
+- Product Backlog aprovada pelo cliente
+- Duplas definidas para cada Sprint
+- Tarefas divisíveis através das User Storys
+
 ---
 
 ### ☑️ DoD (Definition of Done) <a id="dod"></a>
+
+- Documentação atualizada completa
+- Código atualizado e padronizado
+- Código testado e aprovado por toda equipe
+- Calculadora aprovada pelo cliente
 
 ---
 
