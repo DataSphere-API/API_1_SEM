@@ -51,7 +51,7 @@ Rank | Prioridade | User Story                                                  
 
 |  Sprint  |    Período    | Status | Doc. Sprints | 
 | :------: | :-----------: | :----: | :----------: |
-| Sprint 1 | 08/09 a 28/09 |   ✅   |    [Doc]()   |
+| Sprint 1 | 08/09 a 28/09 |   ✅   |    [Doc](Documentos/Backlog Sprint 1.md)   |
 | Sprint 2 | 06/10 a 26/10 |   ⏳   |    [Doc]()   |
 | Sprint 3 | 03/11 a 23/11 |   ⌛   |    [Doc]()   |
 
