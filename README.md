@@ -77,7 +77,7 @@ Rank | Prioridade | User Story                                                  
 
 ### 💻 Tecnologias <a id="tecnologias"></a>
 
--   **Repositório:** Github
+-   **Versionador:** Github
 -   **Ferramenta de gestão:** Jira
 -   **Linguagem:** Portugol
 -   **Plataforma:** VisualG 3.0
