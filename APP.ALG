@@ -199,23 +199,18 @@ Inicio
       fimse
       se (opcao = 6) entao
          escreval ("Você escolheu a opção 06 - Sequência Geométrica")
-         Escreval ("Opção selecionada: SEQUÊNCIA GEOMETRICA")
-         Escreval ("___________________________________________")
-         Escreval ("")
-
-         Escreva ("Digite o primeiro termo da sequência:") //2
+         Escreva ("Digite o primeiro termo da sequência:")
          leia (termo1)
-         Escreva ("Digite a razão da sequência:")          //3
+         Escreva ("Digite a razão da sequência:")
          leia (razao)
-         Escreva ("Digite a quantidade de termos")         //4
+         Escreva ("Digite a quantidade de termos")
          leia (termos)
          limpatela
-         //2x3 - 6x3 - 18x3 - 54x3
          i <- 1
          sequencia <- 1
          Para i de 1 até termos faça
-            sequencia <- sequencia*razao //2*3=6
-            Escreval (i,"º termo da sequência é:",sequencia) //6
+            sequencia <- sequencia*razao
+            Escreval (i,"º termo da sequência é:",sequencia)
          fimpara
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
