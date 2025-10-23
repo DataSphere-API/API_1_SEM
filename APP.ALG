@@ -7,7 +7,7 @@ Algoritmo "semnome"
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 18/09/2025
 Var
-   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis
+   // Seï¿½ï¿½o de Declaraï¿½ï¿½es das variïáveis
    resultado, termo1, termo2, termo3, qte_termos, razao, termos, quantidade, opcao, pause, quantDesejada, nAtual, contador,ehPrimo, numero,i, n:inteiro
    fatorial, passo_valor, valor_inicial, termo, sequencia: real
 
