@@ -1,25 +1,25 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Antonio Carlos Nicolodi
-// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/10/2025
 Var
    // Secao de declaracao de variaveis
-   resultado, termo1, termo2, termo3, qte_termos, razao, termos, quantidade, opcao, pause, quantDesejada, nAtual, contador,ehPrimo, numero,i, n:inteiro
-   fatorial, passo_valor, valor_inicial, termo, sequencia: real
+   contador, termo1, termo2, termo3, razao, termos, opcao, pause, nAtual,ehPrimo,i, n:inteiro
+   fatorial, passoValor, valorInicial, termo, sequencia: real
 
 Inicio
    // Secao de Comandos, procedimento, funcoes, operadores, etc...
    enquanto opcao <>7 faca
       escreval ("------MENU CALCULADORA-------")
       escreval ("")
-      escreval (" 01 - SequÃªncia de NÃºmeros Primos")
-      escreval (" 02 - SequÃªncia de NÃºmeros Fatoriais ")
-      escreval (" 03 - SequÃªncia Alternada")
-      escreval (" 04 - SequÃªncia de NÃºmeros Triangulares")
-      escreval (" 05 - SequÃªncia Fibonacci")
-      escreval (" 06 - SequÃªncia GeomÃ©trica")
+      escreval (" 01 - Sequência de Números Primos")
+      escreval (" 02 - Sequência de Números Fatoriais ")
+      escreval (" 03 - Sequência Alternada")
+      escreval (" 04 - Sequência de Números Triangulares")
+      escreval (" 05 - Sequência Fibonacci")
+      escreval (" 06 - Sequência Geométrica")
       escreval (" 07 - Sair")
       escreval ("")
       Escreval ("-----------------------------")
@@ -28,18 +28,18 @@ Inicio
       escolha opcao
 
       caso 1
-         escreval ("VocÃª escolheu a opÃ§Ã£o 01 - SequÃªncia de NÃºmeros Primos")
-         escreva("Digite a quantidade de nÃºmmeros primos que vocÃª deseja: ")
-         leia(quantDesejada)
+         escreval ("Você escolheu a opção 01 - Sequência de Números Primos")
+         escreva("Digite a quantidade de númmeros primos que você deseja: ")
+         leia(n)
 
-         se quantDesejada <= 0 entao
+         se n <= 0 entao
             escreval("A quantidade deve ser maior que zero.")
          senao
-            escreval("Os primeiros ", quantDesejada, " nÃºmeros primos sÃ£o:")
+            escreval("Os primeiros ", n, " números primos são: ")
             nAtual <- 2
             contador <- 0
 
-            enquanto contador < quantDesejada faca
+            enquanto contador < n faca
                ehPrimo <- 1
 
                para i de 2 ate nAtual - 1 faca
@@ -59,172 +59,171 @@ Inicio
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
-      
+
 
       caso 2
-         escreval ("VocÃª escolheu a opÃ§Ã£o 02 - SequÃªncia de NÃºmeros Fatoriais")
+         escreval ("Você escolheu a opção 02 - Sequência de Números Fatoriais")
          repita
-            escreval("1 - Ver apenas o fatorial de um nÃºmero")
-            escreval("2 - Ver a lista dos fatoriais atÃ© o nÃºmero escolhido")
-            escreval("Escolha uma opÃ§Ã£o: ")
+            escreval("1 - Ver apenas o fatorial de um número")
+            escreval("2 - Ver a lista dos fatoriais até o número escolhido")
             leia(opcao)
 
             se (opcao < 1) ou (opcao > 2) entao
-               escreval("OPÃ‡ÃƒO INVÃLIDA. Tente novamente.")
+               escreval("OPÇÃO INVÁLIDA. Tente novamente.")
             fimse
          ate (opcao = 1) ou (opcao = 2)
 
          repita
-            escreval ("Digite um nÃºmero entre 1 e 17: ")
-            leia(numero)
+            escreva ("Digite um número entre 1 e 17: ")
+            leia(n)
 
-            se (numero < 1) ou (numero > 17) entao
-               escreval ("OPÃ‡ÃƒO INVÃLIDA. Escolha um nÃºmero entre 1 e 17")
+            se (n < 1) ou (n > 17) entao
+               escreval ("OPÇÃO INVÁLIDA. Escolha um número entre 1 e 17")
             fimse
-            
-         ate (numero >= 1) e (numero <= 17)
+
+         ate (n >= 1) e (n <= 17)
 
          fatorial <- 1
 
          se (opcao = 1) entao
-            para i de 1 ate numero faca
+            para i de 1 ate n faca
                fatorial <- fatorial * i
             fimpara
-            escreval("Fatorial de ", numero, " Ã©: ", fatorial)
+            escreval("Fatorial de ", n, " é: ", fatorial)
 
          senao
-         
-            para i de 1 ate numero faca
+
+            para i de 1 ate n faca
                fatorial <- fatorial * i
-               escreval("Fatorial de ", i, " Ã©: ", fatorial)
+               escreval("Fatorial de ", i, " é: ", fatorial)
             fimpara
-            
+
          fimse
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
-      
+
 
       caso 3
-         escreval ("VocÃª escolheu a opÃ§Ã£o 03 - SequÃªncia Alternada ")
-         escreval("Digite o valor inicial da sua sequÃªncia: ")
-         leia(valor_inicial)
-         escreval("Escreva quantos termos sua sequÃªncia terÃ¡: ")
-         leia(quantidade)
+         escreval ("Você escolheu a opção 03 - Sequência Alternada ")
+         escreva("Digite o valor inicial da sua sequência: ")
+         leia(valorInicial)
+         escreva("Escreva quantos termos sua sequência terá: ")
+         leia(n)
 
-         enquanto (quantidade <0) faca
+         enquanto (n <0) faca
             escreval ("Digite um valor valido!")
-            escreval("Escreva quantos termos sua sequÃªncia terÃ¡: ")
-            leia(quantidade)
+            escreva("Escreva quantos termos sua sequência terá: ")
+            leia(n)
          fimenquanto
 
-         escreval ("Escreva a razÃ£o da sua sequÃªncia")
-         leia(passo_valor)
+         escreva ("Escreva a razão da sua sequência: ")
+         leia(passoValor)
          contador<-0
 
          repita
-            termo <- valor_inicial + (passo_valor * contador)
+            termo <- valorInicial + (passoValor * contador)
 
             se (contador % 2 <> 0) entao
                termo <- (-1)*termo
             fimse
             contador<- contador + 1
-            escreval(contador, "Â° ->", termo)
-         ate (contador >= quantidade)
+            escreval(contador, "° ->", termo)
+         ate (contador >= n)
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
-         
+
 
       caso 4
-         escreval ("VocÃª escolheu a opÃ§Ã£o 04 - SequÃªncia de NÃºmeros Triangulares")
-         escreval("Escolha a opÃ§Ã£o desejada:")
-         escreval("1 - EnÃ©simo (n) nÃºmero da sequÃªncia")
-         escreval("2 - Ver a lista dos nÃºmeros triÃ¢ngulares atÃ© o nÃºmero escolhido")
+         escreval ("Você escolheu a opção 04 - Sequência de Números Triangulares")
+         escreval("Escolha a opção desejada:")
+         escreval("1 - Enésimo (n) número da sequência")
+         escreval("2 - Ver a lista dos números triângulares até o número escolhido")
          leia(opcao)
          enquanto (opcao <1) ou (opcao >2) faca
-            escreval("OPÃ‡ÃƒO INVÃLIDA. Tente novamente")
+            escreval("OPÇÃO INVÁLIDA. Tente novamente")
             leia (opcao)
 
          fimenquanto
          limpatela
 
          se (opcao = 1) entao
-            escreval("VocÃª escolheu encontrar o enÃ©simo nÃºmero da sequÃªncia.")
-            escreval("Digite a posiÃ§Ã£o do termo que deseja visualizar (atÃ© o 40.000):")
-            leia(i)
-            enquanto (i<1) ou (i>40000) faca
-               escreval("OPÃ‡ÃƒO INVÃLIDA. Digite um nÃºmero entre 1 e 40.000:")
-               leia (i)
+            escreval("Você escolheu encontrar o enésimo número da sequência.")
+            escreva("Digite a posição do termo que deseja visualizar (até o 40.000): ")
+            leia(n)
+            enquanto (n<1) ou (n>40000) faca
+               escreval("OPÇÃO INVÁLIDA. Digite um número entre 1 e 40.000:")
+               leia (n)
             fimenquanto
-            para n de 1 ate i faca
-               termo <- n*(n+1)/2
+            para i de 1 ate n faca
+               termo <- i*(i+1)/2
             fimpara
             limpatela
-            escreval("O",i,"Âº nÃºmero da sequÃªncia Ã©:",termo)
+            escreval("O ",n,"º número da sequência é: ",termo)
          fimse
 
          se (opcao = 2) entao
-            escreval("VocÃª escolheu ver a lista dos nÃºmeros triÃ¢ngulares atÃ© o nÃºmero escolhido.")
-            escreval("Digite quantos termos deseja ver (atÃ© 40.000 termos):")
+            escreval("Você escolheu ver a lista dos números triângulares até o número escolhido.")
+            escreva("Digite quantos termos deseja ver (até 40.000 termos): ")
             leia(i)
             limpatela
             enquanto (i<1) ou (i>40000) faca
-               escreval("OPÃ‡ÃƒO INVÃLIDA. Digite um nÃºmero entre 1 e 40.000:")
+               escreval("OPÇÃO INVÁLIDA. Digite um número entre 1 e 40.000:")
                leia (i)
             fimenquanto
-            escreval("A sequÃªncia para",i," termos atÃ©:")
+            escreval("Sequência para ",i," termos: ")
             para n de 1 ate i faca
                termo <- n*(n+1)/2
-               escreval(n,"Â° ->",termo)
+               escreval(n,"° ->",termo)
             fimpara
          fimse
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
-      
+
 
       caso 5
-         escreval ("VocÃª escolheu a opÃ§Ã£o 05 - SequÃªncia Fibonacci")
-         escreval("Escreva a quantidade de termos da sua sequÃªncia")
-         leia(qte_termos)
+         escreval ("Você escolheu a opção 05 - Sequência Fibonacci")
+         escreva("Escreva a quantidade de termos da sua sequência: ")
+         leia(n)
          termo1<-0
          termo2<-1
 
-         para contador de 1 ate qte_termos faca
+         para i de 1 ate n faca
             termo1<-termo2
             termo2<-termo3
             termo3 <- termo1+termo2
-            escreval(contador,"Â° ->", termo3)
+            escreval(i,"° ->", termo3)
          fimpara
 
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
-         
+
 
       caso 6
-         escreval ("VocÃª escolheu a opÃ§Ã£o 06 - SequÃªncia GeomÃ©trica")
-         Escreva ("Digite o primeiro termo da sequÃªncia:")
+         escreval ("Você escolheu a opção 06 - Sequência Geométrica")
+         Escreva ("Digite o primeiro termo da sequência: ")
          leia (termo1)
-         Escreva ("Digite a razÃ£o da sequÃªncia:")
+         Escreva ("Digite a razão da sequência: ")
          leia (razao)
-         Escreva ("Digite a quantidade de termos:")
-         leia (termos)
+         Escreva ("Digite a quantidade de termos: ")
+         leia (n)
 
-         i <- 1
          sequencia <- 1
-         Para i de 1 atÃ© termos faÃ§a
+         Para i de 1 ate n faca
+            Escreval (i,"° ->",sequencia)
             sequencia <- sequencia*razao
-            Escreval (i,"Â° ->",sequencia)
+
          fimpara
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
-         
+
 
       caso 7
-         escreval ("VocÃª escolheu a opÃ§Ã£o 07 - Sair")
+         escreval ("Você escolheu a opção 07 - Sair")
       fimescolha
    fimenquanto
 Fimalgoritmo
