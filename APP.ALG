@@ -11,16 +11,19 @@ Var
 
 Inicio
    // Secao de Comandos, procedimento, funcoes, operadores, etc...
-   enquanto opcao <>7 faca
+   enquanto opcao <> 10 faca
       escreval ("------MENU CALCULADORA-------")
       escreval ("")
       escreval (" 01 - Sequência de Números Primos")
       escreval (" 02 - Sequência de Números Fatoriais ")
       escreval (" 03 - Sequência Alternada")
       escreval (" 04 - Sequência de Números Triangulares")
-      escreval (" 05 - Sequência Fibonacci")
+      escreval (" 05 - Sequência de Fibonacci")
       escreval (" 06 - Sequência Geométrica")
-      escreval (" 07 - Sair")
+      escreval (" 07 - Sequência de quadrados perfeitos")
+      escreval (" 08 - Sequência de Cubos")
+      escreval (" 09 - Sequência de Tribonacci")
+      escreval (" 10 - Sair")
       escreval ("")
       Escreval ("-----------------------------")
       leia (opcao)
@@ -59,7 +62,6 @@ Inicio
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
-
 
       caso 2
          escreval ("Você escolheu a opção 02 - Sequência de Números Fatoriais")
@@ -136,7 +138,7 @@ Inicio
 
 
       caso 4
-         escreval ("Você escolheu a opção 04 - Sequência de Números Triangulares")
+         escreval("Você escolheu a opção 04 - Sequência de Números Triangulares")
          escreval("Escolha a opção desejada:")
          escreval("1 - Enésimo (n) número da sequência")
          escreval("2 - Ver a lista dos números triângulares até o número escolhido")
@@ -182,9 +184,8 @@ Inicio
          leia(pause)
          limpatela
 
-
       caso 5
-         escreval ("Você escolheu a opção 05 - Sequência Fibonacci")
+         escreval ("Você escolheu a opção 05 - Sequência de Fibonacci")
          escreva("Escreva a quantidade de termos da sua sequência: ")
          leia(n)
          termo1<-0
@@ -200,7 +201,6 @@ Inicio
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
-
 
       caso 6
          escreval ("Você escolheu a opção 06 - Sequência Geométrica")
@@ -221,9 +221,29 @@ Inicio
          leia(pause)
          limpatela
 
-
       caso 7
-         escreval ("Você escolheu a opção 07 - Sair")
+      //Quadrados Perfeitos
+         escreval ("Você escolheu a opção 07 - Quadrados Perfeitos")
+         escreval("Aperte enter para voltar ao menu")
+         leia(pause)
+         limpatela
+
+      caso 8
+      //Sequencia de Cubos
+         escreval ("Você escolheu a opção 08 - Sequência de Cubos")
+         escreval("Aperte enter para voltar ao menu")
+         leia(pause)
+         limpatela
+
+      caso 9
+      //Sequencia de Tribonacci
+         escreval ("Você escolheu a opção 09 - Sequencia de Tribonacci")
+         escreval("Aperte enter para voltar ao menu")
+         leia(pause)
+         limpatela
+
+      caso 10
+         escreval ("Você escolheu a opção 10 - Sair")
       fimescolha
    fimenquanto
 Fimalgoritmo
