@@ -242,7 +242,7 @@ Inicio
          se (opcao = 1) entao
             limpatela
             escreval("Você escolheu ver enésimo (n) número da sequência")
-            escreva("Digite o número da sequência: ")//mudar depois
+            escreva("Digite o número da sequência: ")
             leia (n)
             escreval ("O " , n , "° número da sequência é: ", n*n*n)
          fimse
