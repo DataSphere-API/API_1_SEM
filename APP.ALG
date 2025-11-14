@@ -231,6 +231,34 @@ Inicio
       caso 8
       //Sequencia de Cubos
          escreval ("Você escolheu a opção 08 - Sequência de Cubos")
+         escreval("Escolha a opção desejada:")
+         escreval("1 - Enésimo (n) número da sequência")
+         escreval("2 - Ver a sequência de cubos até o número escolhido")
+         leia(opcao)
+         enquanto (opcao <1) ou (opcao >2) faca
+            escreval("OPÇÃO INVÁLIDA. Tente novamente")
+            leia (opcao)
+         fimenquanto
+         se (opcao = 1) entao
+            limpatela
+            escreval("Você escolheu ver enésimo (n) número da sequência")
+            escreva("Digite o número da sequência: ")//mudar depois
+            leia (n)
+            escreval ("O " , n , "° número da sequência é: ", n*n*n)
+         fimse
+         
+         se (opcao = 2) entao
+            limpatela
+            escreval("Você escolheu ver a sequência de cubos até o número escolhido.")
+            escreva("Digite quantos termos deseja ver: ")
+            leia (n)
+            i <- 1
+            para i de i ate n faca
+            escreval (i, "° -> ", i*i*i)
+            fimpara
+         fimse
+         
+         
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
