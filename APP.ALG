@@ -6,7 +6,7 @@ Algoritmo "semnome"
 // Data atual  : 23/10/2025
 Var
    // Secao de declaracao de variaveis
-   contador, termo1, termo2, termo3, razao, termos, opcao, pause, nAtual,ehPrimo,i, n:inteiro
+   contador, termo1, termo2, termo3, termo4, razao, termos, opcao, pause, nAtual,ehPrimo,i, n:inteiro
    fatorial, passoValor, valorInicial, termo, sequencia: real
 
 Inicio
@@ -222,23 +222,63 @@ Inicio
          limpatela
 
       caso 7
-      //Quadrados Perfeitos
+         //Quadrados Perfeitos
          escreval ("Você escolheu a opção 07 - Quadrados Perfeitos")
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
 
       caso 8
-      //Sequencia de Cubos
+         //Sequencia de Cubos
          escreval ("Você escolheu a opção 08 - Sequência de Cubos")
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
 
       caso 9
-      //Sequencia de Tribonacci
+         //Sequencia de Tribonacci
          escreval ("Você escolheu a opção 09 - Sequencia de Tribonacci")
          escreval("Aperte enter para voltar ao menu")
+         escreval("Escolha a opção desejada:")
+         escreval("1 - Enésimo (n) número da sequência")
+         escreval("2 - Ver a lista dos números até a posição escolhida")
+         leia(opcao)
+         enquanto (opcao <1) ou (opcao >2) faca
+            escreval("OPÇÃO INVÁLIDA. Tente novamente")
+            leia (opcao)
+         fimenquanto
+         limpatela
+         se (opcao = 1) entao
+            escreval("Digite a posição do termo desejado: ")
+            leia(n)
+            termo1<-0
+            termo2<-1
+            termo3<-0
+            termo4<-0
+            para i de 1 ate n faca
+               termo1<-termo2
+               termo2<-termo3
+               termo3 <- termo4
+               termo4 <- termo1+termo2+termo3
+            fimpara
+            escreval(i,"° ->", termo4)
+         fimse
+         se (opcao = 2) então
+            escreval("Escreva a quantidade de termos da sua sequência")
+            leia(n)
+            //inicia todas as variaveis
+            termo1<-0
+            termo2<-1
+            termo3<-0
+            termo4<-0
+            para i de 1 ate n faca
+               termo1<-termo2
+               termo2<-termo3
+               termo3 <- termo4
+               termo4 <- termo1+termo2+termo3
+               escreval(i,"° ->", termo4)
+            fimpara
+         fimse
          leia(pause)
          limpatela
 
