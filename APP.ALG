@@ -1,12 +1,10 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 23/10/2025
+//
+
+
 Var
    // Secao de declaracao de variaveis
-   contador, termo1, termo2, termo3, razao, termos, opcao, pause, nAtual,ehPrimo,i, n:inteiro
+   contador, termo1, termo2, termo3, razao, termos, opcao, pause, nAtual,ehPrimo,i,j, n,quadPfto:inteiro
    fatorial, passoValor, valorInicial, termo, sequencia: real
 
 Inicio
@@ -222,14 +220,74 @@ Inicio
          limpatela
 
       caso 7
-      //Quadrados Perfeitos
+         //Quadrados Perfeitos
          escreval ("Você escolheu a opção 07 - Quadrados Perfeitos")
+         escreval("Escolha a opção desejada:")
+         escreval("1 - Enésimo (n) número da sequência")
+         escreval("2 - Ver a lista dos quadrados perfeitos até a posição escolhida")
+         escreval("3 - Validar se o número escolhido é uma quadrado perfeito")
+         leia(opcao)
+         limpatela
+         Enquanto (opcao <1) ou (opcao >3) faca
+            escreval("Opção inválida! Escolha a opção desejada:")
+            escreval("1 - Enésimo (n) número da sequência")
+            escreval("2 - Ver a lista dos quadrados perfeitos até a posição escolhida")
+            escreval("3 - Validar se o número escolhido é uma quadrado perfeito")
+            leia(opcao)
+            limpatela
+         fimenquanto
+         se opcao = 1 entao
+            escreval("Digite o enésimo (n) termo que deseja visualizar:")
+            leia(n)
+            limpatela
+            enquanto n < 0 faca
+               escreval("Digite um número maior que 0:")
+               leia(n)
+               limpatela
+            fimenquanto
+            Para i de 1 ate n faca
+               quadPfto <- i*i
+            fimpara
+            escreval("O",n,"° termo da sequência é:",quadPfto)
+         fimse
+         se opcao = 2 entao
+            escreval("Digite o enésimo termo da sequência para obter a lista:")
+            leia(n)
+            limpatela
+            enquanto n < 0 faca
+               escreval("Digite um número maior que 0:")
+               leia(n)
+               limpatela
+            fimenquanto
+            Para i de 1 ate n faca
+               quadPfto <- i*i
+               escreval(i,"° ->",quadPfto)
+            fimpara
+         fimse
+         se opcao = 3 entao
+            escreval("Digite o número que deseja validar:")
+            leia(n)
+            limpatela
+            Para i de 1 ate n faca
+               quadPfto <- i*i
+               se quadPfto = n entao
+                  j <- 1
+               fimse
+            fimpara
+            se j = 1 entao
+               escreval(n," faz parte da sequência de quadrados perfeitos.")
+            senao
+               escreval(n," nao faz parte da sequência de quadrados perfeitos.")
+            fimse
+         fimse
+
+
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
 
       caso 8
-      //Sequencia de Cubos
+         //Sequencia de Cubos
          escreval ("Você escolheu a opção 08 - Sequência de Cubos")
          escreval("Escolha a opção desejada:")
          escreval("1 - Enésimo (n) número da sequência")
@@ -246,7 +304,7 @@ Inicio
             leia (n)
             escreval ("O " , n , "° número da sequência é: ", n*n*n)
          fimse
-         
+
          se (opcao = 2) entao
             limpatela
             escreval("Você escolheu ver a sequência de cubos até o número escolhido.")
@@ -254,17 +312,17 @@ Inicio
             leia (n)
             i <- 1
             para i de i ate n faca
-            escreval (i, "° -> ", i*i*i)
+               escreval (i, "° -> ", i*i*i)
             fimpara
          fimse
-         
-         
+
+
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
 
       caso 9
-      //Sequencia de Tribonacci
+         //Sequencia de Tribonacci
          escreval ("Você escolheu a opção 09 - Sequencia de Tribonacci")
          escreval("Aperte enter para voltar ao menu")
          leia(pause)
