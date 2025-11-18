@@ -236,9 +236,7 @@ Inicio
          limpatela
 
       caso 9
-         //Sequencia de Tribonacci
          escreval ("Você escolheu a opção 09 - Sequencia de Tribonacci")
-         escreval("Aperte enter para voltar ao menu")
          escreval("Escolha a opção desejada:")
          escreval("1 - Enésimo (n) número da sequência")
          escreval("2 - Ver a lista dos números até a posição escolhida")
@@ -249,7 +247,7 @@ Inicio
          fimenquanto
          limpatela
          se (opcao = 1) entao
-            escreval("Digite a posição do termo desejado: ")
+            escreva("Digite a posição do termo desejado: ")
             leia(n)
             termo1<-0
             termo2<-1
@@ -264,9 +262,8 @@ Inicio
             escreval(i,"° ->", termo4)
          fimse
          se (opcao = 2) então
-            escreval("Escreva a quantidade de termos da sua sequência")
+            escreva("Escreva a quantidade de termos da sua sequência: ")
             leia(n)
-            //inicia todas as variaveis
             termo1<-0
             termo2<-1
             termo3<-0
@@ -279,6 +276,7 @@ Inicio
                escreval(i,"° ->", termo4)
             fimpara
          fimse
+         escreval("Aperte enter para voltar ao menu")
          leia(pause)
          limpatela
 
