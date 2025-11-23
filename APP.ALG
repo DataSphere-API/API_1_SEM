@@ -1,4 +1,5 @@
 Algoritmo "Calculadora Avançada"
+
 Var
    contador, termo1, termo2, termo3,termo4, razao, termos, opcao, pause, nAtual,ehPrimo,i,j, n,quadPfto:inteiro
    fatorial, passoValor, valorInicial, termo, sequencia:real
