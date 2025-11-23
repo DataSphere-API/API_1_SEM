@@ -17,7 +17,7 @@
     <a href ="#equipe"> Equipe</a>
 </p>
 
-> Status do projeto: Em progresso ⏳
+> Status do projeto: Concluído ✅
 > 
 > [Documentação](Documentos) 📑
 
@@ -52,8 +52,8 @@ Rank | Prioridade | User Story                                                  
 |  Sprint  |    Período    | Status | Doc. Sprints | 
 | :------: | :-----------: | :----: | :----------: |
 | Sprint 1 | 08/09 a 28/09 |   ✅  |    [Doc](Documentos/Sprints/Backlog_Sprint_1.md)   |
-| Sprint 2 | 06/10 a 26/10 |   ⏳   |    [Doc](Documentos/Sprints/Backlog_Sprint_2.md)   |
-| Sprint 3 | 03/11 a 23/11 |   ⌛   |    [Doc](Documentos/Sprints/Backlog_Sprint_3.md)   |
+| Sprint 2 | 06/10 a 26/10 |   ✅   |    [Doc](Documentos/Sprints/Backlog_Sprint_2.md)   |
+| Sprint 3 | 03/11 a 23/11 |   ✅   |    [Doc](Documentos/Sprints/Backlog_Sprint_3.md)   |
 
 ---
 
@@ -115,8 +115,8 @@ Para executar a calculadora, siga os passos abaixo:
     <tr>
       <td>Luiz Felipe</td>
       <td>Scrum Master</td>
-      <td><a href="luiz-andrade1"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
-      <td><a href="www.linkedin.com/in/luiz-felipe-queirós"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
+      <td><a href="https://github.com/luiz-andrade1"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a></td>
+      <td><a href="https://www.linkedin.com/in/luiz-felipe-queir%C3%B3s/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a></td>
     </tr>
     <tr>
       <td>Daiane Moura</td>
